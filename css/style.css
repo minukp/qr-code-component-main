@@ -5,19 +5,28 @@ body{
     padding: 0;
     background-color:  hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    
+    height: 100vh;   
 }
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .grid{
+    display: grid;
+    place-items: center;
+} */
 
 .card{
     width: 80%;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 10px;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 
 }
 .img{
